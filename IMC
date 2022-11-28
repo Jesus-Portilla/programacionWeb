@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPoVwDngf3lJdUXZtWZgzOE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jesus-Portilla/programacionWeb/blob/main/IMC\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Cálculo del indice de masa corporal"
+      ],
+      "metadata": {
+        "id": "k22yg0aEGef0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "cellView": "form",
+        "id": "GR_jEXT_GR_z",
+        "outputId": "2d1fc751-5caa-407b-ffab-cf6524a80153"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "23.148148148148145\n"
+          ]
+        }
+      ],
+      "source": [
+        "#@title Cálculo del IMC { run: \"auto\" }\n",
+        "Estatura = 1.80 #@param {type:\"number\"}\n",
+        "Peso = 75 #@param {type:\"number\"}\n",
+        "imc=Peso/Estatura**2\n",
+        "print(imc)"
+      ]
+    }
+  ]
+}
